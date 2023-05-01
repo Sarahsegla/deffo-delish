@@ -13,7 +13,11 @@
 
 ## Installation
 
-N/A
+```
+npm install
+npm start
+
+```
 
 ## Depository Link 
 - HTML verison https://sarahsegla.github.io/DeffoDelish-HTML/
