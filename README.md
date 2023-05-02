@@ -21,6 +21,7 @@ npm start
 
 ## Depository Link 
 - HTML verison https://sarahsegla.github.io/DeffoDelish-HTML/
+- Netlify https://stunning-flan-4f643a.netlify.app/
 
 ## screenshot
 
