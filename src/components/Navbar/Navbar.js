@@ -11,17 +11,14 @@ function Navbar () {
         <div>
             <div className="navbar">
                 <div className="page">
-                <Button className="home" variant="text" style={{ textDecoration: 'none', color: 'black', backgroundColor: 'gray' }}>Home</Button>
-                <Button variant="text" style={{ textDecoration: 'none', color: 'black' }}>Restaurants</Button>
-                <Button variant="text" style={{ textDecoration: 'none', color: 'black' }}>Contact</Button>
-                <div className="icons">
-                    <MailIcon/>
-                    <AddIcon/>
-                    <InstagramIcon/>
-                    <SearchIcon/>
+                <Button className="home" variant="text" style={{ textDecoration: 'none', color: 'black', backgroundColor: 'gray', fontFamily: 'Bebas Neue' }}>Home</Button>
+                <Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue' }}>Restaurants</Button>
+                <Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue', paddingRight: '10px' }}>Contact</Button>
+                <MailIcon/>
+                <AddIcon/>
+                <InstagramIcon style={{ color: 'red' }}/>
+                <SearchIcon/>
                 </div>
-                </div>
-                
             </div>
         </div>
     )
