@@ -32,11 +32,11 @@ function CustomLink({ to, children, ...props }) {
 
     return (
         <div>
-       <li className={path === to  ? "active" : ""}>
+       <span className={path === to  ? "active" : ""}>
        <Link to={to} {...props}>
         {children}
        </Link>
-       </li>
+       </span>
        </div>
     )
 } 
