@@ -5,18 +5,19 @@ import MailIcon from '@mui/icons-material/Mail';
 import AddIcon from '@mui/icons-material/Add';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import SearchIcon from '@mui/icons-material/Search';
+import { Link} from 'react-router-dom';
 
 function Navbar () {
     return (
         <div>
             <div className="navbar">
                 <div className="page">
-                <Button className="home" variant="text" style={{ textDecoration: 'none', color: 'black', backgroundColor: 'gray', fontFamily: 'Bebas Neue' }}>Home</Button>
-                <Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue' }}>Restaurants</Button>
-                <Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue', paddingRight: '10px' }}>Contact</Button>
-                <MailIcon/>
+                <CustomLink to="/home" > <Button className="home" variant="text" style={{ textDecoration: 'none', color: 'black', backgroundColor: 'gray', fontFamily: 'Bebas Neue' }}>Home</Button></CustomLink>
+                <CustomLink to="/Restaurant"><Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue' }}>Restaurants</Button></CustomLink>
+                <CustomLink to="/Contact"><Button variant="text" style={{ textDecoration: 'none', color: 'black', fontFamily: 'Bebas Neue', paddingRight: '10px' }}>Contact</Button></CustomLink>
+                <a href={"mailto:ablavisarahsegla@gmail.com"}><MailIcon  style={{ textDecoration: 'none', color: 'black'}}/></a>
                 <AddIcon/>
-                <InstagramIcon style={{ color: 'red' }}/>
+                <a href="https://www.instagram.com/deffodelish/?igshid=YmMyMTA2M2Y%3D"><InstagramIcon style={{ color: 'red' }}/></a>
                 <SearchIcon/>
                 </div>
             </div>
@@ -25,3 +26,17 @@ function Navbar () {
 }
 
 export default Navbar;
+
+function CustomLink({ to, children, ...props }) {
+    const path = window.location.pathname
+
+    return (
+        <div>
+       <li className={path === to  ? "active" : ""}>
+       <Link to={to} {...props}>
+        {children}
+       </Link>
+       </li>
+       </div>
+    )
+} 
