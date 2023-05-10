@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Restaurant  from "./pages/Restaurants";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar/Navbar";
+import './App.css';
 
 function App() {
   return (
