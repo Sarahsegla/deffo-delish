@@ -13,13 +13,13 @@ export default function SimpleContainer() {
         <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={3}>
           <Grid item xs>
-            <img src={Gif1} alt='giggy'/>
+            <img src={Gif1} alt='spaghetti' style={{width: '350px', height: '250px'}}/>
           </Grid>
           <Grid item xs>
-          <img src={Gif2} alt='option of food'/>
+          <img src={Gif2} alt='option of food'style={{width: '350px', height: '250px'}}/>
           </Grid>
           <Grid item xs>
-          <img src={Gif3} alt='shops' style={{width: '300px', height: '250px'}}/>
+          <img src={Gif3} alt='shops' style={{width: '350px', height: '250px'}}/>
           </Grid>
         </Grid>
       </Box>
