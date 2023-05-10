@@ -1,7 +1,8 @@
 import React from "react";
-import "./styles.css"
-import Carousel from "../../components/carousel/carousel"
+import "./styles.css";
+import Carousel from "../../components/carousel/carousel";
 import Jumbo from "../../components/jumbo/jumbo";
+import Suggestion from "../../components/suggestion/suggestion";
 
 function Home () {
     return (
@@ -14,19 +15,24 @@ function Home () {
            <Jumbo/>
             </header>
             <article>
-            <div className="about" style={{textAlign: 'left', paddingTop: '100px', paddingBottom: '100px', paddingLeft: '50px'}}> 
-            <p>
+            <div className="about" style={{textAlign: 'left', paddingTop: '80px', paddingBottom: '10px', paddingLeft: '50px', fontSize: '30px'}}> 
+            <h3>
                     Food and Travel Blogger.
                     <br></br>
                     Food From All Over the World.
                     {/* <br></br>
                     Any Suggestion of Restaurants? */}
-                    </p>
+                    </h3>
                 </div>
             </article>
-            <div className="slides">
-                <Carousel />
+            <div className="slides" style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
+                <Carousel/>
                 </div>
+            <div className="suggest">
+
+                
+                <Suggestion/>
+            </div>
         </div>
     )
 }

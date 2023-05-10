@@ -4,6 +4,7 @@ import Item from "../item/item";
 import Data from "../../Data.json";
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 function ImageCarousel()
@@ -11,6 +12,8 @@ function ImageCarousel()
     
     return (
         <>
+        <React.Fragment>
+      <CssBaseline />
         <Container maxWidth="sm">
         <Box sx={{ height: '50vh' }}>
         <Carousel>
@@ -21,6 +24,7 @@ function ImageCarousel()
         </Box> 
         
       </Container>
+      </React.Fragment>
         </>
     )
 }
