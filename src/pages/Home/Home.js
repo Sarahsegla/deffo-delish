@@ -24,13 +24,13 @@ function Home () {
             <article>
             <div className="about" data-aos="fade-up-right" style={{textAlign: 'left', paddingTop: '80px', paddingBottom: '10px', paddingLeft: '50px', fontSize: '30px'}}> 
             <h3>
-                    Food and Travel Blogger.
+                    Food and Travel Blog.
                     <br></br>
                     Food From All Over the World.
                    </h3>
                 </div>
             </article>
-            <div className="slides" style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
+            <div className="slides"  style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
                 {/* <Carousel/> */}
                 <Overlay />
                 </div>
