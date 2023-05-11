@@ -10,8 +10,8 @@ function Footer() {
         <>
  <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lgx" style={{paddingTop: '100px', backgroundColor: '#5072A7'}}>
-        <Box sx={{ bgcolor: '#5072A7', height: '30vh', width: '210vh' }} />
+      <Container maxWidth="md" style={{paddingTop: '100px', backgroundColor: '#5072A7'}}>
+        <Box sx={{ bgcolor: '#5072A7', height: '30vh', width: '10vh' }} />
         <p>
             2023
         </p>
