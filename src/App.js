@@ -5,6 +5,7 @@ import Restaurant  from "./pages/Restaurants";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar/Navbar";
 import './App.css';
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,10 +18,8 @@ function App() {
           <Route path="/restaurant" element={<Restaurant />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
-
-  </div>
-        
+ </div>
+  <Footer />      
        
       
     </div>

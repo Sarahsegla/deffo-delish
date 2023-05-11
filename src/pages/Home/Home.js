@@ -32,7 +32,7 @@ function Home () {
             <div className="slides" style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
                 <Carousel/>
                 </div>
-            <div className="suggest">
+            <div className="suggest" style={{paddingBottom: '60px'}}>
 
                 
                 <Suggestion/>
