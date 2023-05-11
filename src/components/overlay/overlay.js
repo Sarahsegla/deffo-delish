@@ -11,6 +11,7 @@ import Crept2 from '../../image/crept2.jpeg';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import Rating from '@mui/material/Rating';
 
 
 const style = {
@@ -31,6 +32,7 @@ function Overlay(props) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [value, setValue] = React.useState(2);
 
     return (
         <div className='Project' style={{padding: '40px', paddingTop: '100px', justifyContent: 'space-between' }}>
@@ -54,9 +56,10 @@ function Overlay(props) {
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Mamma Mia 
+            
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            hellllllllllllllooo
           </Typography>
         </Box>
       </Modal>
