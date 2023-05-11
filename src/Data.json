@@ -1,17 +1,8 @@
 [{
     "Id": "1",
-    "image": "images/ice.jpg",
-    "description": "Chimney Cone Accra"
-},
-{
-    "Id": "2",
-    "image": "images/mix.jpg",
-    "description": "Ginseng Korean BBQ"
-},
-{
-    "Id": "3",
-    "image": "images/spag.png",
-    "description": "Aqua Safari Ghana"
- }
+    "image": "images/spagblue.gif",
+    "ShopImage": "images/spagblue2.jpeg",
+    "description": "Mamma Mia"
+}
 
 ]

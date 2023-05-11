@@ -1,11 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import "./styles.css";
-import Carousel from "../../components/carousel/carousel";
+// import Carousel from "../../components/carousel/carousel";
 import Jumbo from "../../components/jumbo/jumbo";
 import Suggestion from "../../components/suggestion/suggestion";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Overlay from "../../components/overlay/overlay";
 
 function Home () {
     useEffect(()=> {
@@ -30,7 +31,8 @@ function Home () {
                 </div>
             </article>
             <div className="slides" style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
-                <Carousel/>
+                {/* <Carousel/> */}
+                <Overlay />
                 </div>
             <div className="suggest" style={{paddingBottom: '60px'}}>
 
