@@ -7,6 +7,8 @@ import Gif2 from '../../image/options.gif';
 // import Gif3 from '../../image/shop.gif';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Email from '../email/email';
+
 
 export default function SimpleContainer() {
   useEffect(()=> {
@@ -28,6 +30,7 @@ export default function SimpleContainer() {
           <Grid item xs>
           {/* <img src={Gif3} alt='shops' style={{width: '350px', height: '250px'}}/> */}
           <p>contact form here</p>
+          <Email />
           </Grid>
         </Grid>
       </Box>

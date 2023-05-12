@@ -83,7 +83,7 @@ function Footer() {
           xs={12}
           container
           justifyContent="space-between"
-          alignItems="center"
+         alignItems="center"
           flexDirection={{ xs: 'column', sm: 'row' }}
           sx={{ fontSize: '12px' }}
         >

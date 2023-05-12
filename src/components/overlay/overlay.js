@@ -41,7 +41,12 @@ function Overlay(props) {
     Data && Data.map( Project => {
         return(
             <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={3} style={{paddingLeft: '100px'}}>
+      <Grid container spacing={3} style={{paddingLeft: '100px'}} 
+          
+          justifyContent="space-between"
+         alignItems="center"
+          
+          sx={{ fontSize: '12px' }} >
         <Grid  xs>
             <div className='box' key={ Project.id }>
             <img src={Project.image } alt='project' className='Image' style={{width: '200px', height: '200px', zIndex: '2', position: 'absolute', marginLeft: '40px', marginTop: '40px'}}/> 
@@ -66,7 +71,7 @@ function Overlay(props) {
 
                </div>
                </Grid>
-               <Grid  xs>
+               <Grid  xs  className='Image1'>
                <img src={Awaaba } alt='Rice' className='Image' style={{width: '200px', height: '200px', zIndex: '2', position: 'absolute', marginLeft: '40px', marginTop: '40px'}}/> 
             <Button onClick={handleOpen}>     <img src={Awaaba2} alt='shop of rice' className='shopImage' style={{width: '200px', height: '200px', zIndex: '1', position: 'absolute'}} /> </Button>
 
