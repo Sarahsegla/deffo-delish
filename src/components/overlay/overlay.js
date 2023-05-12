@@ -35,13 +35,13 @@ function Overlay(props) {
   // const [value, setValue] = React.useState(2);
 
     return (
-        <div className='Project' style={{padding: '40px', paddingTop: '100px', justifyContent: 'space-between' }}>
+        <div className='Project' style={{padding: '40px', paddingTop: '100px' }}>
             <div className='inside'>
 {
     Data && Data.map( Project => {
         return(
             <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={3} style={{paddingLeft: '100px', justifyContent: 'space-between' }}>
+      <Grid container spacing={3} style={{paddingLeft: '100px'}}>
         <Grid  xs>
             <div className='box' key={ Project.id }>
             <img src={Project.image } alt='project' className='Image' style={{width: '200px', height: '200px', zIndex: '2', position: 'absolute', marginLeft: '40px', marginTop: '40px'}}/> 

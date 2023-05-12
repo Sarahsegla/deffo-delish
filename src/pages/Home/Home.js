@@ -30,7 +30,7 @@ function Home () {
                    </h3>
                 </div>
             </article>
-            <div className="slides"  style={{paddingBottom: '220px', backgroundColor: '#5072A7'}}>
+            <div className="slides"  style={{paddingBottom: '220px', backgroundColor: '#5072A7', height: '250px'}}>
                 {/* <Carousel/> */}
                 <Overlay />
                 </div>
