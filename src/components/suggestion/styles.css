@@ -1,0 +1,10 @@
+@media (max-width: 432px) {
+    .gifImage {
+        width: 350px;
+        height: 250px;
+    }
+
+    .gif {
+        padding-left: 10px;
+    }
+}

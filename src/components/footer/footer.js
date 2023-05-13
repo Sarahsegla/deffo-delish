@@ -17,7 +17,7 @@ function Footer() {
         <Box sx={{ flexGrow: 1 }} style={{backgroundColor: '#5072A7'}}>
       <Grid container spacing={2}>
         <Grid xs={12} md={5} lg={4}>
-        <h1 className="name" style={{  fontFamily: 'Bebas Neue',  paddingBottom: '10px', textAlign: 'left' }}>DeffoDelish</h1>
+        <h5 className="name" style={{  fontFamily: 'Bebas Neue', textAlign: 'left' }}><span id="we">D</span>effo<span id="we">D</span>elish</h5>
         </Grid>
         <Grid container xs={12} md={7} lg={8} spacing={4}>
           <Grid xs={6} lg={3}>

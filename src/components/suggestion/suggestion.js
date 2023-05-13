@@ -8,6 +8,7 @@ import Gif2 from '../../image/options.gif';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Email from '../email/email';
+import './styles.css';
 
 
 export default function SimpleContainer() {
@@ -24,12 +25,11 @@ export default function SimpleContainer() {
           {/* <Grid item xs>
             <img src={Gif1} alt='spaghetti' style={{width: '350px', height: '250px'}}/>
           </Grid> */}
-          <Grid item xs style={{paddingLeft: '70px'}}>
-          <img src={Gif2} alt='option of food'style={{width: '350px', height: '250px'}}/>
+          <Grid item xs style={{paddingLeft: '50px'}} className='gif'>
+          <img src={Gif2} className='gifImage' alt='option of food'style={{width: '350px', height: '400px'}}/>
           </Grid>
           <Grid item xs>
           {/* <img src={Gif3} alt='shops' style={{width: '350px', height: '250px'}}/> */}
-          <p>contact form here</p>
           <Email />
           </Grid>
         </Grid>

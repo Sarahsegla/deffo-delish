@@ -18,6 +18,8 @@ function Email() {
   };
 
   return (
+    <>
+        <h4 className="name" style={{  fontFamily: 'Bebas Neue', textAlign: 'left' }}><span id="we">C</span>ontact <span id="we">F</span>orm</h4>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
@@ -27,6 +29,7 @@ function Email() {
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
+    </>
   );
 };
 
