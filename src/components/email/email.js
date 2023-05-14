@@ -19,14 +19,14 @@ function Email() {
 
   return (
     <>
-        <h4 className="name" style={{  fontFamily: 'Bebas Neue', textAlign: 'left', fontSize: '50px' }}><span id="we">C</span>ontact <span id="we">F</span>orm</h4>
+        <h4 className="name" style={{  fontFamily: 'Bebas Neue', textAlign: 'left', fontSize: '40px' }}><span id="we">C</span>ontact <span id="we">F</span>orm</h4>
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label style={{  fontFamily: 'Bebas Neue' }}>Name </label>
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <label style={{  fontFamily: 'Bebas Neue'}}>Email </label>
       <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+      <label style={{  fontFamily: 'Bebas Neue' }}>Message </label>
+      <textarea name="message" placeholder='Hi...' style={{width: '93%', height: '100px'}}/>
       <input type="submit" value="Send" />
     </form>
     </>
