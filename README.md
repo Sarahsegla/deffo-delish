@@ -5,7 +5,7 @@
 
 
 ## User Story
-- Food critic using HTML
+- Food critic using React.js
 
 ## Acceptance Criteria
 - Find restaurants using API.
