@@ -1,0 +1,23 @@
+[
+    {
+    "Id": "1",
+    "ShopImage": "images/spagblue2.jpeg",
+    "name": "Mamma Mia",
+    "location": "Blanes, Spain",
+    "url": "#url"
+},
+{
+    "Id": "2",
+    "ShopImage": "images/awaaba2.jpeg",
+    "name": "Awaaba Kitchen",
+    "location": "Accra, Africa",
+    "url": "#url"
+},
+{
+    "Id": "3",
+    "ShopImage": "images/crept2.jpeg",
+    "name": "King's Grand Cafe",
+    "location": "Costa Bravo, Spain",
+    "url": "#url"
+}
+]

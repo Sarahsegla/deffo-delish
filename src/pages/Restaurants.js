@@ -1,11 +1,10 @@
 import React from "react";
+import List from "./../components/list/list";
 
 function Restaurants () {
     return (
         <div>
-            <p>
-                hi Restaurants
-            </p>
+            <List />
         </div>
     )
 }
